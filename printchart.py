@@ -16,7 +16,7 @@ pngname = "Charts\\"
 def PrintChart(): #wyzwalane o 23:50
     now = datetime.datetime.now()
     name = now.strftime("%B%d")
-    if now.hour == 16 and now.minute == 43 : #23:50
+    if now.hour == 17 and now.minute == 13 : #23:50
         with open(name+'.csv', 'r', newline='', encoding='utf-8') as csv_file:
             mean = 0
             val = 0
