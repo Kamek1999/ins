@@ -12,7 +12,7 @@ def WriteToCSV(twriteh, twritem):
     if twritem == 0 \
             or twritem == 10\
             or twritem == 20\
-            or twritem == 36\
+            or twritem == 30\
             or twritem == 40\
             or twritem == 50:
         print("writing into CSV!")
