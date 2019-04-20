@@ -26,10 +26,3 @@ while True:
     WriteToCSV(twriteh, twritem)
     PrintChart()
     sleep(45)
-
-
-"""
-Wysylanie E-mail
-Formatowanie długoczasowe
-wykres tygodniowy
-"""
